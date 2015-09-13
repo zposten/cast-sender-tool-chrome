@@ -8,18 +8,18 @@ This Google Cast Sender Tool application illustrates basic interaction with the 
 
 ## Setup Instructions
 * You will need a Google Cast device such as a Chromecast to run this sample code
-* Register your Cast device Developer Console ((http://cast.google.com/publish) to allow it to run this sample
+* Register your Cast device on the [Google Cast SDK Developer Console](http://cast.google.com/publish) to allow it to run this sample
 * Setup the cast-custom-receiver-sample to act as the receiver
-* Register a custom receiver application on the Cast Developers Console (http://cast.google.com/publish). The URL to use will be the IP address of the system you will run the receiver server from. If you run the server using the provided NodeJS server on your local machine, enter the ip-address of your computer with it's non local IP (eg. http://172.17.21.148:9999/sample_media_receiver.html). You will get an App ID when you finish registering your application.
+* Register a custom receiver application on the [Cast Developer Console](http://cast.google.com/publish). The URL to use will be the IP address of the system you will run the receiver server from. If you run the server using the provided NodeJS server on your local machine, enter the ip-address of your computer with it's non local IP (e.g. `http://172.17.21.148:9999/sample_media_receiver.html`). You will get an App ID when you finish registering your application.
 * Setup the project dependencies (see below)
 * Run the provided NodeJS server script using NodeJs or deploy to an existing server
 
 ## Project Setup
-* Install NodeJS (http://nodejs.org/) for your platform
+* Install [NodeJS](http://nodejs.org/) for your platform
 * In the root of this project execute
-* $> npm install express
-* $> node s3.js
-* Receiver will be available on http://IP-Address:7777/web_sender_tool.html
+	* `$> npm install express`
+	* `$> node s3.js`
+* Receiver will be available on `http://IP-Address:7777/web_sender_tool.html`
 
 ## References and How to report bugs
 * Cast APIs: http://developers.google.com/cast/docs
